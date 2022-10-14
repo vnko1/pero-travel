@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "jasmin";
+  font-family: "Jasmin";
   font-display: swap;
   font-style: normal;
   font-weight: 400;
@@ -8,6 +8,8 @@
 
 :root {
   --main-font: "Montserrat", sans-serif;
+  --secondary-font: "Marko One", sans-serif;
+  --accent-font: "Jasmin", sans-serif;
   --typical-transition-duration: 250ms;
 }
 
