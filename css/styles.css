@@ -1,7 +1,84 @@
 @font-face {
-  font-family: "mr_kindlyjasmineg", sans-serif;
+  font-family: "jasmin";
   font-display: swap;
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/mr_kindlyjasmineg.ttf);
+  src: url(../fonts/jasmin.otf);
+}
+
+:root {
+  --main-font: "Montserrat", sans-serif;
+  --typical-transition-duration: 250ms;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Footer */
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 20px;
+}
+
+.header-nav-link {
+  display: block;
+  padding-top: 46px;
+  padding-bottom: 46px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #ffffff;
+  transition: color var(--typical-transition-duration) linear;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #ffc700;
 }
