@@ -84,3 +84,72 @@ a {
 .header-nav-link:focus {
   color: #ffc700;
 }
+
+/* HERO */
+
+.hero {
+  max-width: 1440px;
+  height: 789px;
+  padding: 237px 0 248px 0;
+  margin: 0 auto;
+  background-color: #e8e8e8;
+  /* background-image: url(../images/hero-image.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content {
+}
+
+.hero-title {
+  position: relative;
+}
+
+.hero-title span {
+  display: block;
+}
+
+.hero-top-title {
+  font-size: 72px;
+  line-height: calc(88 / 72);
+  color: #ffffff;
+}
+
+.hero-accent-title {
+  position: absolute;
+  top: 48px;
+  right: 32px;
+  font-family: var(--accent-font);
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+  color: #ffc700;
+}
+
+.hero-bottom-title {
+  position: relative;
+
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: calc(119 / 96);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #fff;
+}
+.hero-link {
+}
+.hero-soc-list {
+}
+.hero-soc-item {
+}
+.hero-soc-link {
+}
+.hero-soc-icon {
+}
