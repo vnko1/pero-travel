@@ -758,3 +758,38 @@ a {
   margin-left: 55px;
   background-color: #d4d4d4;
 }
+
+/* Contacting */
+
+.contacting {
+  width: 1440px;
+  height: 640px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../images/form-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: right, center;
+  background-size: 50%, contain;
+}
+
+.contacting-form-container {
+}
+
+.contacting-top-text {
+}
+.contacting-bottom-text {
+}
+.contacting-form {
+}
+.contacting-form-label {
+}
+.contacting-form-text {
+}
+.contacting-form-input {
+}
+.contacting-form-bytton {
+}
