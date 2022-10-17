@@ -163,12 +163,13 @@ a {
 
 .hero-link::after {
   content: "";
-  width: 14px;
-  height: 14px;
+  width: 15px;
+  height: 100%;
   margin-left: 5px;
   background-image: url(../images/arrow.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right 50% bottom 20px;
+  background-size: contain;
 }
 
 .hero-soc-item:not(:last-child) {
@@ -453,3 +454,115 @@ a {
 .about-us-top-text {
   margin-bottom: 20px;
 }
+
+/* Excursions */
+
+.excursions {
+  padding: 150px 0;
+}
+
+.container {
+}
+
+.excursions-title {
+  margin-bottom: 90px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: calc(29 / 24);
+  color: #0499dd;
+}
+
+.excursions-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 40px;
+  margin-bottom: 60px;
+}
+
+.excursions-item {
+  display: flex;
+  align-items: flex-start;
+  width: calc(100% / 2 - 20px);
+}
+
+.excursions-item::before {
+  content: "";
+  width: 75px;
+  height: 74px;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.excursions-item:nth-child(1)::before {
+  background-image: url(../images/bus.png);
+}
+
+.excursions-item:nth-child(2)::before {
+  background-image: url(../images/jeeping.png);
+}
+
+.excursions-item:nth-child(3)::before {
+  background-image: url(../images/yachting.png);
+}
+
+.excursions-item:nth-child(4)::before {
+  height: 66px;
+  background-image: url(../images/canyoning.png);
+}
+
+.excursions-item-title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  color: #0499dd;
+}
+
+.excursions-item-text {
+  width: 455px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #282828;
+}
+
+.excursions-text {
+  width: 550px;
+  margin: 0 auto 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  text-align: center;
+  color: #282828;
+}
+
+.excursions-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 50px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #ffffff;
+  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  border-radius: 60px;
+}
+
+.excursions-link::after {
+  content: "";
+  width: 15px;
+  height: 100%;
+  margin-left: 5px;
+  background-image: url(../images/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right 50% bottom 20px;
+  background-size: contain;
+}
+
+/* Gallery */
