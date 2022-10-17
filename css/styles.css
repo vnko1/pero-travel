@@ -93,7 +93,7 @@ a {
 /* HERO */
 
 .hero {
-  max-width: 1440px;
+  min-width: 1440px;
   height: 789px;
   padding: 237px 0 248px 0;
   margin: 0 auto;
