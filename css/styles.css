@@ -765,6 +765,7 @@ a {
   width: 1440px;
   height: 640px;
   margin: 0 auto;
+  background-color: #e8e8e8;
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.3),
@@ -777,19 +778,89 @@ a {
 }
 
 .contacting-form-container {
+  width: 560px;
+  padding: 132px 95px 143px 105px;
+  margin-left: auto;
+  backdrop-filter: blur(10px);
 }
 
 .contacting-top-text {
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: calc(29 / 24);
+  color: #ffffff;
 }
+
 .contacting-bottom-text {
+  margin-bottom: 45px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #ffc700;
 }
-.contacting-form {
-}
+
 .contacting-form-label {
+  position: relative;
+  display: block;
+  font-size: 12px;
+  color: #ffffff;
 }
+
 .contacting-form-text {
+  position: absolute;
+  bottom: 0;
+
+  font-weight: 500;
+  font-size: inherit;
+  line-height: calc(15 / 12);
+  color: currentColor;
 }
+
 .contacting-form-input {
+  width: 100%;
+  height: 15px;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: inherit;
+  color: currentColor;
+  outline: none;
 }
+
+.contacting-form-label:nth-child(1) .contacting-form-input {
+  padding-left: 30px;
+}
+
+.contacting-form-label:nth-child(2) .contacting-form-input {
+  padding-left: 60px;
+}
+
+.contacting-form-label:nth-child(3) .contacting-form-input {
+  padding-left: 43px;
+}
+
+.contacting-form-label:not(:last-child) {
+  margin-bottom: 45px;
+}
+
+.contacting-form-label:nth-child(3) {
+  margin-bottom: 83px;
+}
+
 .contacting-form-bytton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #ffffff;
+  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
 }
