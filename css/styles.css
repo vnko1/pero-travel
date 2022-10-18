@@ -992,17 +992,21 @@ a {
 /* Options */
 
 .options {
+  padding-top: 40px;
   background-color: #fbfbfb;
 }
 
 .options-selector {
   padding: 60px;
+  background-color: #fff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
 }
 
 .options-selector-list-container {
   position: relative;
   width: 475px;
-  margin: 0 auto;
+  margin: 0 auto 73px;
 }
 
 .options-selector-list-container::after {
@@ -1023,9 +1027,6 @@ a {
   width: 475px;
   margin: 0 auto;
   /* justify-content: center; */
-}
-
-.options-selector-item {
 }
 
 .options-selector-btn {
@@ -1064,4 +1065,50 @@ a {
 .options-selector-btn:hover::after,
 .options-selector-btn:focus::after {
   transform: scaleX(1);
+}
+
+.options-form {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.options-form-label {
+  position: relative;
+}
+
+.options-form-select {
+  width: 235px;
+  padding: 16px 35px 17px 25px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #000000;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: transparent;
+  appearance: none;
+}
+
+.options-form-icon {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.options-form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #ffffff;
+  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  border-radius: 10px;
+  border: none;
 }

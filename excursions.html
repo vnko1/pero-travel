@@ -54,6 +54,7 @@
         </div>
       </section>
       <section class="options">
+        <h2 class="visually-hidden">Туры</h2>
         <div class="container">
           <div class="options-selector">
             <div class="options-selector-list-container">
@@ -80,8 +81,42 @@
                 </li>
               </ul>
             </div>
+            <form class="options-form">
+              <label class="options-form-label">
+                <select name="local" class="options-form-select">
+                  <option value="Абхазия" selected>Абхазия</option>
+                  <option value="Сочи">Сочи</option>
+                  <option value="Красная поляна">Красная поляна</option>
+                </select>
+                <svg class="options-form-icon" width="31" height="31">
+                  <use href="./images/sprite.svg#icon-map"></use>
+                </svg>
+              </label>
+              <label class="options-form-label">
+                <select name="date" class="options-form-select">
+                  <option value="2021-11-10" selected>10 ноября 2021</option>
+                  <option value="2021-11-11">11 ноября 2021</option>
+                  <option value="2021-11-12">12 ноября 2021</option>
+                </select>
+                <svg class="options-form-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-calendar"></use>
+                </svg>
+              </label>
+              <label class="options-form-label">
+                <select name="quantity" class="options-form-select">
+                  <option value="1" selected>1 человек</option>
+                  <option value="2">2 человека</option>
+                  <option value="3">3 человека</option>
+                  <option value="4">4 человека</option>
+                  <option value="5" selected>5 человек</option>
+                </select>
+                <svg class="options-form-icon" width="23" height="23">
+                  <use href="./images/sprite.svg#icon-people"></use>
+                </svg>
+              </label>
+              <button class="options-form-btn" type="input">Показать</button>
+            </form>
           </div>
-          <form class="options-form"></form>
         </div>
       </section>
     </main>
