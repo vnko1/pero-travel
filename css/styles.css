@@ -999,18 +999,32 @@ a {
 }
 
 .options-selector {
+  padding: 60px;
+}
+
+.options-selector-list-container {
+  width: 475px;
+  padding: 0 15px 10.5px;
+  margin: 0 auto 59.1px;
+  border-bottom: 2px solid #d4d4d4;
+  display: block;
 }
 
 .options-selector-list {
   display: flex;
   gap: 20px;
-  justify-content: center;
+  /* justify-content: center; */
+}
+
+.options-selector-list {
 }
 
 .options-selector-item {
 }
 
 .options-selector-btn {
+  padding: 0;
+  position: relative;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(17 / 14);
@@ -1018,4 +1032,28 @@ a {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  transition: color var(--typical-transition-duration) linear;
+}
+
+.options-selector-btn:hover,
+.options-selector-btn:focus {
+  color: #0499dd;
+}
+
+.options-selector-btn::after {
+  content: "";
+  position: absolute;
+  bottom: -13px;
+  transform: scaleX(0);
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #0499dd;
+  transition: transform var(--typical-transition-duration) linear;
+}
+
+.options-selector-btn:hover::after,
+.options-selector-btn:focus::after {
+  transform: scaleX(1);
 }
