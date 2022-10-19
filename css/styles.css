@@ -606,7 +606,7 @@ a {
 
 .gallery-left-secondary-container {
   display: flex;
-  gap: 20.14px;
+  /* gap: 20.14px; */
 }
 
 .gallery-left-container {
