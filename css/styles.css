@@ -1310,7 +1310,8 @@ a {
 }
 
 .options-item-btn {
-  padding: 12px 43px 13px;
+  width: 160px;
+  height: 40px;
   margin-right: 10px;
   font-weight: 700;
   font-size: 12px;
@@ -1322,11 +1323,10 @@ a {
   cursor: pointer;
 }
 
-/* .options-item-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+.options-item-label {
+  display: block;
+  height: 40px;
+}
 
 .options-item-input {
   position: absolute;
