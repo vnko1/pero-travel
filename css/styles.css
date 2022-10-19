@@ -1026,10 +1026,8 @@ a {
 .options-selector-list {
   position: relative;
   display: flex;
- 
   width: 475px;
   margin: 0 auto;
- 
 }
 
 .options-selector-btn {
@@ -1077,8 +1075,8 @@ a {
   width: 475px;
 }
 
-.options-selector-label {
-}
+/* .options-selector-label {
+} */
 
 .options-selector-input {
   position: absolute;
