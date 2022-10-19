@@ -965,7 +965,9 @@ a {
   justify-content: start;
 }
 
-/* Excursions hero */
+/* Excursions  */
+
+/* hero */
 
 .excursions-hero {
   padding: 142px 0 59px;
@@ -1003,9 +1005,7 @@ a {
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
-
 /* 
-
 .options-selector-list-container {
   position: relative;
   width: 475px;
@@ -1114,9 +1114,6 @@ a {
   transition: color var(--typical-transition-duration) linear;
 }
 
-.options-selector-label:last-child .options-selector-text::after {
-}
-
 .options-selector-text::after {
   content: "";
   position: absolute;
@@ -1188,4 +1185,103 @@ a {
   background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
   border-radius: 10px;
   border: none;
+}
+.options-main-form {
+}
+
+.options-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: calc(29 / 24);
+  color: #0499dd;
+}
+
+.options-list {
+}
+
+.options-item {
+}
+
+.options-item-top-text {
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  color: #ffc700;
+}
+
+.options-item-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  color: #282828;
+}
+
+.options-sublist {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.options-subitem-top-text {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 1px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  color: #0499dd;
+}
+
+.options-subitem-top-text::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 6px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.options-subitem:nth-child(1) {
+  margin-right: 10px;
+}
+
+.options-subitem:nth-child(2) {
+  margin-right: 40px;
+}
+
+.options-subitem:not(:last-child) .options-subitem-top-text::before {
+  background-image: url(../images/value-accent.svg);
+}
+
+.options-subitem:last-child .options-subitem-top-text::before {
+  background-image: url(../images/time-accent.svg);
+}
+
+.options-subitem-bottom-text {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: calc(12 / 10);
+  color: #282828;
+}
+
+.options-item-main-text {
+}
+
+.options-item-btn-container {
+}
+
+.options-item-btn {
+}
+
+.options-item-label {
+}
+
+.options-item-input {
+}
+
+.options-item-icon {
 }
