@@ -1271,6 +1271,8 @@ a {
 
 .options-subitem:last-child .options-subitem-top-text::before {
   background-image: url(../images/time-accent.svg);
+  width: 15px;
+  height: 15px;
 }
 
 .options-subitem-bottom-text {
