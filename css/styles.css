@@ -1542,7 +1542,7 @@ a {
 .options-form-time-container {
   position: relative;
   padding-bottom: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .options-form-time-container::after {
