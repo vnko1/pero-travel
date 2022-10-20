@@ -1187,7 +1187,108 @@ a {
   border: none;
 }
 
+.options-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 295px;
+  padding: 25px 35px 25.2px;
+}
+
+.options-form-text {
+  margin-bottom: 31px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #0499dd;
+}
+
 .options-main-form {
+}
+
+.options-form-value-container {
+}
+
+.options-form-value-btn {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.options-form-value-btn-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #282828;
+}
+
+.options-form-value-btn-text::after {
+  content: "";
+  display: block;
+  margin-left: auto;
+  width: 16px;
+  height: 2px;
+  background-image: linear-gradient(#0499dd, #0499dd);
+  border-radius: 2px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.options-form-value-input {
+}
+.options-form-value-input-range {
+}
+.options-form-quantity-container {
+}
+.options-form-quantity-btn {
+}
+.options-form-quantity-btn-text {
+}
+.options-form-quantity-btn-icon {
+}
+.options-form-quantity-label {
+}
+.options-form-quantity-input {
+}
+.options-form-quantity-label-text {
+}
+.options-form-place-container {
+}
+.options-form-place-btn {
+}
+.options-form-place-btn-text {
+}
+.options-form-place-btn-icon {
+}
+.options-form-lenght-container {
+}
+.options-form-lenght-btn {
+}
+.options-form-lenght-btn-text {
+}
+.options-form-lenght-btn-icon {
+}
+.options-form-time-container {
+}
+.options-form-time-btn {
+}
+.options-form-time-btn-text {
+}
+.options-form-time-btn-icon {
+}
+.options-form-top-button {
+}
+.options-form-bottom-button {
+}
+.options-form-bottom-button-icon {
+}
+.options-form-bottom-text {
 }
 
 .plus {
