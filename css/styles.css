@@ -1199,6 +1199,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 295px;
+  height: 1018px;
   padding: 25px 35px 25.2px;
   background-color: #fff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
@@ -1422,10 +1423,25 @@ a {
   color: #282828;
 }
 
+.options-form-place-btn-text::after {
+  content: "";
+  display: block;
+  margin-left: auto;
+  width: 16px;
+  height: 2px;
+  background-image: linear-gradient(#0499dd, #0499dd);
+  border-radius: 2px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .options-form-place-label {
   display: flex;
   align-items: center;
   position: relative;
+  cursor: pointer;
+  margin-bottom: 5px;
 }
 
 .options-form-place-label:not(:last-child) {
@@ -1478,39 +1494,139 @@ a {
 }
 
 .options-form-lenght-container {
+  position: relative;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.options-form-lenght-container::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #ededed;
+  border-radius: 2px;
 }
 
 .options-form-lenght-btn {
+  width: 100%;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
+
 .options-form-lenght-btn-text {
-}
-.options-form-lenght-btn-icon {
-}
-.options-form-time-container {
-}
-.options-form-time-btn {
-}
-.options-form-time-btn-text {
-}
-.options-form-time-btn-icon {
-}
-.options-form-top-button {
-}
-.options-form-bottom-button {
-}
-.options-form-bottom-button-icon {
-}
-.options-form-bottom-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #282828;
 }
 
-.plus {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-
-  background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), #000;
+.options-form-lenght-btn-text::after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: linear-gradient(#0499dd, #0499dd),
+    linear-gradient(#0499dd, #0499dd);
   background-position: center;
-  background-size: 50% 2px, 2px 50%; /*thickness = 2px, length = 50% (25px)*/
+  background-size: 100% 2px, 2px 100%;
+  background-repeat: no-repeat;
+}
+
+.options-form-time-container {
+  position: relative;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.options-form-time-container::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #ededed;
+  border-radius: 2px;
+}
+
+.options-form-time-btn {
+  width: 100%;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.options-form-time-btn-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #282828;
+}
+
+.options-form-time-btn-text::after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: linear-gradient(#0499dd, #0499dd),
+    linear-gradient(#0499dd, #0499dd);
+  background-position: center;
+  background-size: 100% 2px, 2px 100%;
+  background-repeat: no-repeat;
+}
+
+.options-form-top-button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  color: #ffffff;
+  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.options-form-bottom-button {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.options-form-bottom-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  color: #282828;
+}
+
+.options-form-bottom-text::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  transform: rotate(-45deg);
+  background: linear-gradient(#d4d4d4, #d4d4d4),
+    linear-gradient(#d4d4d4, #d4d4d4);
+  background-position: center;
+  background-size: 100% 2px, 2px 100%;
   background-repeat: no-repeat;
 }
 
