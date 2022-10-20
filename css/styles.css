@@ -1379,6 +1379,7 @@ a {
   background: #ffffff;
   border: 1px solid #ededed;
   border-radius: 40px;
+  cursor: pointer;
 }
 
 .options-form-quantity-label:last-child .options-form-quantity-label-text {
