@@ -1190,6 +1190,7 @@ a {
 .options-main-container {
   display: flex;
   gap: 40px;
+  padding-bottom: 137px;
 }
 
 .options-form-container {
