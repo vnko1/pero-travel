@@ -1197,8 +1197,8 @@ a {
   position: sticky;
   left: 0;
   top: 0;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   width: 295px;
   height: 1018px;
   padding: 25px 35px 25.2px;
@@ -1220,7 +1220,8 @@ a {
 
 .options-form-value-container {
   position: relative;
-  padding-bottom: 40px;
+  height: 141px;
+  padding-bottom: 39px;
   margin-bottom: 40px;
 }
 
@@ -1275,6 +1276,7 @@ a {
 
 .options-form-value-input {
   width: 105px;
+  height: 30px;
   padding: 7px 16px 8px;
   font-weight: 500;
   font-size: 12px;
@@ -1288,11 +1290,12 @@ a {
 
 .options-form-value-input-range {
   width: 100%;
+  height: 15px;
 }
 
 .options-form-quantity-container {
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 39px;
   margin-bottom: 40px;
 }
 
@@ -1390,7 +1393,7 @@ a {
 
 .options-form-place-container {
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 39px;
   margin-bottom: 40px;
 }
 
@@ -1496,7 +1499,7 @@ a {
 
 .options-form-lenght-container {
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 39px;
   margin-bottom: 40px;
 }
 
@@ -1542,8 +1545,8 @@ a {
 
 .options-form-time-container {
   position: relative;
-  padding-bottom: 40px;
-  margin-bottom: 30px;
+  padding-bottom: 39px;
+  margin-bottom: 44px;
 }
 
 .options-form-time-container::after {
@@ -1710,7 +1713,7 @@ a {
 }
 
 .options-subitem:not(:last-child) .options-subitem-top-text::before {
-  background-image: url(../images/value-accent.svg);
+  background-image: url(../images/monets.svg);
 }
 
 .options-subitem:last-child .options-subitem-top-text::before {
