@@ -1192,7 +1192,7 @@ a {
 .options-main-container {
   display: flex;
   gap: 40px;
-  padding-bottom: 137px;
+  padding-bottom: 80px;
 }
 
 .options-form-container {
@@ -1647,6 +1647,10 @@ a {
   color: #0499dd;
 }
 
+.options-list {
+  margin-bottom: 40px;
+}
+
 .options-item {
   width: 779px;
   padding: 27px 43px 27px 281px;
@@ -1805,4 +1809,50 @@ a {
   stroke: #0499dd;
   background-color: transparent;
   border-color: #0499dd;
+}
+
+.options-buttons-list {
+  display: flex;
+  justify-content: center;
+}
+.options-buttons-item {
+  margin-right: 12px;
+}
+
+.options-buttons-item:nth-child(1) {
+  margin-right: 6px;
+}
+
+.options-buttons-item:nth-child(5) {
+  margin-right: 6px;
+}
+
+.options-buttons-item-button {
+  display: block;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #282828;
+  cursor: pointer;
+  transition: color 250ms linear;
+}
+
+.options-buttons-item:last-child .options-buttons-item-icon {
+  transform: rotate(180deg);
+}
+
+.options-buttons-item-icon {
+  stroke: #000000;
+  transition: stroke 250ms linear;
+}
+
+.options-buttons-item-button:hover,
+.options-buttons-item-button:focus,
+.options-buttons-item-button:hover .options-buttons-item-icon,
+.options-buttons-item-button:focus .options-buttons-item-icon {
+  color: #0499dd;
+  stroke: #0499dd;
 }
